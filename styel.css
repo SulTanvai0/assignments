@@ -1,0 +1,200 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.frist-section-1 {
+
+    background-image: url(images/donation13.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+
+}
+
+.need-big-font {
+    font-size: 50px;
+}
+
+.snd-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+
+}
+
+.frist-section-2 {
+    font: size 70px;
+    color: white;
+    background-color: tomato;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin-top: 15%;
+    border-radius: 7px;
+}
+
+.secon-section-1 {
+    text-align: center;
+}
+
+.money-section {
+    flex-direction: row;
+    padding: 25px;
+
+}
+
+.secon-section-2 {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+#money {
+    border: 2px solid tomato;
+
+    padding: 0px 10px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(245, 243, 243);
+}
+
+.otherammount {
+    text-align: center;
+
+}
+
+.amount-output input {
+    width: 35%;
+    outline: 0;
+    border: 0;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 5px solid gray;
+
+}
+
+.amount-output a {
+    font: size 70px;
+    color: white;
+    background-color: tomato;
+    text-decoration: none;
+    padding: 15px 15px;
+    border-radius: 7px;
+}
+
+.donate-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.donat-palne-1 {
+    text-align: center;
+}
+
+.donat-palne-1 h3 {
+    font-size: 50px;
+
+}
+
+.donat-palne-1 p {
+    font-size: 20px;
+}
+
+.donat-palne-2 {
+    display: flex;
+}
+
+.donate {
+    height: auto;
+    width: 400px;
+    border: 5px solid black;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.donate img {
+    margin: top 40px;
+    height: 100px;
+    width: 100px;
+
+
+}
+
+.donate h4 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.d-p-1 {
+    background-color: gray;
+}
+
+.d-p-2 {
+    background-color: green;
+}
+
+.d-p-3 {
+    background-color: pink;
+}
+
+.update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.u-p-1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.u-p-1 h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.u-p-1 p {
+    color: #777;
+}
+
+.u-i-2 {
+    width: 50%;
+    margin: 20px;
+    padding: 50px 150px;
+    background-color: pink;
+}
+
+.u-i-2 input[ type="text"] {
+    padding: 20px;
+    outline: 0;
+    border: 0;
+    color: rgb(63, 62, 62);
+    background-color: rgba(119, 119, 119 0.30);
+    border-radius: 5px 0 0 5px;
+}
+
+.u-i-2 input[ type="submit"] {
+    padding: 20px;
+    border: 0;
+    position: absolute;
+    background-color: rgb(221, 80, 80);
+    border-radius: 0 5px 5px;
+}
